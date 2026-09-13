@@ -1,0 +1,55 @@
+specs:
+  fitness:
+    description: "macro-F1 по 8 классам intent"
+    decimals: 5
+    is_primary: true
+    higher_is_better: true
+    lower_bound: 0.0
+    upper_bound: 1.0
+    include_in_prompts: true
+    significant_change: 0.01
+    sentinel_value: -1000
+
+  accuracy:
+    description: "Доля правильных ответов по intent"
+    decimals: 5
+    is_primary: false
+    higher_is_better: true
+    lower_bound: 0.0
+    upper_bound: 1.0
+    include_in_prompts: true
+    significant_change: 0.01
+    sentinel_value: 0.0
+
+  f1_clarification:
+    description: "F1 по бинарному признаку needs_clarification"
+    decimals: 5
+    is_primary: false
+    higher_is_better: true
+    lower_bound: 0.0
+    upper_bound: 1.0
+    include_in_prompts: true
+    significant_change: 0.01
+    sentinel_value: 0.0
+
+  invalid_combo_rate:
+    description: "Доля needs_clarification=true при intent!=data_catalog"
+    decimals: 5
+    is_primary: false
+    higher_is_better: false
+    lower_bound: 0.0
+    upper_bound: 1.0
+    include_in_prompts: true
+    significant_change: 0.01
+    sentinel_value: 1.0
+
+  is_valid:
+    description: "Whether the program is valid (1 valid, 0 invalid)"
+    decimals: 0
+    is_primary: false
+    higher_is_better: true
+    lower_bound: 0.0
+    upper_bound: 1.0
+    include_in_prompts: true
+    significant_change: 1.0
+    sentinel_value: 0

@@ -1,0 +1,30 @@
+{"id": "stress-001", "history": [], "text": "Привет, как дела?", "intent": "greeting", "needs_clarification": false}
+{"id": "stress-002", "history": [], "text": "Здорово, братан!", "intent": "greeting", "needs_clarification": false}
+{"id": "stress-003", "history": [], "text": "Пока, увидимся", "intent": "greeting", "needs_clarification": false}
+{"id": "stress-004", "history": [], "text": "Привет, почему не открывается отчёт?", "intent": "technical", "needs_clarification": false}
+{"id": "stress-005", "history": [], "text": "Спасибо, а какой срок хранения данных?", "intent": "technical", "needs_clarification": false}
+{"id": "stress-006", "history": [], "text": "Нет, спасибо", "intent": "gratitude", "needs_clarification": false}
+{"id": "stress-007", "history": [], "text": "Не зови оператора, объясни ошибку сам", "intent": "technical", "needs_clarification": false}
+{"id": "stress-008", "history": [], "text": "Не повторяй, позови оператора", "intent": "support", "needs_clarification": false}
+{"id": "stress-009", "history": [], "text": "Ты умеешь строить сводные?", "intent": "capabilities", "needs_clarification": false}
+{"id": "stress-010", "history": [], "text": "Построй сводную по Мозаике", "intent": "pivot_table", "needs_clarification": false}
+{"id": "stress-011", "history": [], "text": "Найди таблицу с полем user_id", "intent": "data_catalog", "needs_clarification": false}
+{"id": "stress-012", "history": [], "text": "Где найти информацию по кубам Росинки?", "intent": "data_catalog", "needs_clarification": true}
+{"id": "stress-013", "history": [], "text": "Что у вас по кубу Мозаики?", "intent": "data_catalog", "needs_clarification": true}
+{"id": "stress-014", "history": [], "text": "Мне нужны сведения о витринах Меридиана", "intent": "data_catalog", "needs_clarification": true}
+{"id": "stress-015", "history": [{"role": "assistant", "content": "Найдены витрины PrismDaily и PrismDeals."}], "text": "Покажи ещё", "intent": "data_catalog", "needs_clarification": false}
+{"id": "stress-016", "history": [{"role": "assistant", "content": "Могу показать, как обрабатываются поздние возвраты."}], "text": "Покажи ещё", "intent": "technical", "needs_clarification": false}
+{"id": "stress-017", "history": [{"role": "assistant", "content": "Вариант 1 — автоматическая проверка. Вариант 2 — оператор."}], "text": "Вариант 2", "intent": "support", "needs_clarification": false}
+{"id": "stress-018", "history": [{"role": "assistant", "content": "Вариант 1 — краткое объяснение. Вариант 2 — подробное."}], "text": "Вариант 2", "intent": "technical", "needs_clarification": false}
+{"id": "stress-019", "history": [{"role": "assistant", "content": "Исходный объём — до возврата. Чистый объём — минус возврат."}], "text": "Оформи это таблицей", "intent": "no_rag", "needs_clarification": false}
+{"id": "stress-020", "history": [{"role": "assistant", "content": "Могу построить сводную по каналам."}], "text": "Оформи это таблицей", "intent": "pivot_table", "needs_clarification": false}
+{"id": "stress-021", "history": [{"role": "assistant", "content": "Методика V2 Искры начинает действовать 1 апреля 2026 года."}], "text": "Когда она начинает действовать?", "intent": "no_rag", "needs_clarification": false}
+{"id": "stress-022", "history": [{"role": "assistant", "content": "У Искры есть методика V2 с обновлёнными правилами."}], "text": "Когда она начинает действовать?", "intent": "technical", "needs_clarification": false}
+{"id": "stress-023", "history": [], "text": "привееет", "intent": "greeting", "needs_clarification": false}
+{"id": "stress-024", "history": [], "text": "аператора пжлста", "intent": "support", "needs_clarification": false}
+{"id": "stress-025", "history": [], "text": "найди витрны где есть refund_value", "intent": "data_catalog", "needs_clarification": false}
+{"id": "stress-026", "history": [], "text": "отчот не грузится, помоги", "intent": "technical", "needs_clarification": false}
+{"id": "stress-027", "history": [], "text": "Спасибооо 🙏", "intent": "gratitude", "needs_clarification": false}
+{"id": "stress-028", "history": [], "text": "Благадарю, выручил!", "intent": "gratitude", "needs_clarification": false}
+{"id": "stress-029", "history": [{"role": "user", "content": "Найди витрины по Призме."}, {"role": "assistant", "content": "Найдены PrismDaily и PrismDeals. Есть ещё объекты."}], "text": "Дальше", "intent": "data_catalog", "needs_clarification": false}
+{"id": "stress-030", "history": [{"role": "user", "content": "Как устроен расчёт активности?"}, {"role": "assistant", "content": "Мы обсудили порог. Могу показать обработку возвратов."}], "text": "Дальше", "intent": "technical", "needs_clarification": false}
